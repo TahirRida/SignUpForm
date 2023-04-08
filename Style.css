@@ -11,13 +11,12 @@ body {
     display : flex;
     margin : 0px;
     flex-wrap: wrap;
-    /*gap:100px;*/
     background-color: whitesmoke;
 }
 .firstSection{
-    width: 500px;
+    width: 30vw;
     height:600px;
-    background-size: 40vw 650px;
+    background-size: 30vw 800px;
     background-image: url(halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
     color : white;
     background-repeat : no-repeat;
@@ -69,6 +68,8 @@ form {
 }
 .secondSection {
     margin-top : 100px;
+    width:60vw;
+
 }
 .firstParagraph {
     font-family:"Alkatra",sans-serif;
