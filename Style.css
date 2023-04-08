@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Norse";
+    src: url(Norse-Bold.otf);
+}
+
+@font-face {
+    font-family :"Alkatra";
+    src : url(Alkatra-VariableFont_wght.ttf)
+}
+body {
+    display : flex;
+    margin : 0px;
+    flex-wrap: wrap;
+    /*gap:100px;*/
+    background-color: whitesmoke;
+}
+.firstSection{
+    width: 500px;
+    height:600px;
+    background-size: 40vw 650px;
+    background-image: url(halie-west-25xggax4bSA-unsplash\ \(1\).jpg);
+    color : white;
+    background-repeat : no-repeat;
+    display : flex;
+    flex-direction:column;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.odinlogo {
+    width : 100px;
+    height : 100px;
+}
+.title {
+    font-family:"Norse",sans-serif;
+    font-size:60px;
+}
+.odinLogo {
+    background : rgba(0,0,0,0.4);
+    margin-top:100px;
+    display : flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.title {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.source {
+    margin-bottom : 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color : white;
+}
+form {
+    display : flex;
+    gap : 30px;
+}
+.inputs {
+    background-color:white;
+    width :50vw;
+    padding-left:100px;
+    padding-top : 20px;
+    padding-bottom:20px;
+}
+.secondSection {
+    margin-top : 100px;
+}
+.firstParagraph {
+    font-family:"Alkatra",sans-serif;
+    font-weight:bold;
+    font-size : larger;
+    padding-left : 100px;
+}
+input {
+    height:20px;
+    border-radius: 5%;
+}
+button {
+    color:white;
+    background-color: green;
+    border-radius:6px;
+    margin-top:20px;
+    margin-left:100px;
+    border:none;
+    height:30px;
+    width:170px;
+}
+button:hover {
+    background-color:gray
+}
+input:focus {
+    border : solid 2px blue;
+}
+input:valid {
+    border : solid 2px green;
+}
+input:invalid {
+    border : solid 2px red;
+}

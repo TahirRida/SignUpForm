@@ -5,9 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/x-icon" href="odin-lined.png">
     <title>Sign-Up</title>
 </head>
 <body>
-    
+    <div class="firstSection">
+        <div class="odinLogo">
+            <img  class="odinlogo" src="odin-lined.png" alt="Odin-Logo">
+            <h1 class="title">ODIN</h1>
+        </div>
+        <div class="source">
+            <p>
+                photo by <a href="">Halie West</a> on <a href="">Unsplash</a>
+            </p>
+        </div>
+    </div>
+    <div class="secondSection">
+        <div class="firstParagraph">
+            <p>
+                This is not a real online service! You need something<br>
+                like this on real life to help you realize your deepest dreams.<br>
+                sign up now to get started<br><br>
+                You know you want to
+            </p>
+        </div>
+        <div class="form">
+            <div class="inputs">
+                <form action="">
+                    <div class="formLine">
+                        <label for="fName">FIRST NAME</label><br>
+                        <input type="text" id="fName" required><br><br>
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email" required><br><br>
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="formLine">
+                        <label for="lName">LAST NAME</label><br>
+                        <input type="text" id="lName" required><br><br>
+                        <label for="phone">PHONE NUMBER</label><br>
+                        <input type="text" id="phone" minlength="10" maxlength="10"  required><br><br>
+                        <label for="Cpassword">CONFIRM PASSWORD</label><br>
+                        <input type="password" id="Cpassword" required>
+                    </div>
+            </form>
+            </div>
+            <button type="submit">Create an Account</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
